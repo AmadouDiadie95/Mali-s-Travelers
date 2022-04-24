@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Site Touristiques</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light" class="ion-padding">
+
+<ion-searchbar [(ngModel)]="searchKey" class="ion-margin-bottom"
+               searchIcon="undefined" placeholder="Search for places..." color="white"
+               debounce="800">
+  <ion-fab-button (click)="searchTip()" size="small" color="white">
+    <ion-icon name="search-outline" color="primary" animated></ion-icon>
+  </ion-fab-button>
+</ion-searchbar>
+
+<ion-content>
+
+  <div *ngFor="let trip of trips">
+    <ion-card class="location-card">
+      <div [routerLink]="['/', 'tabs', 'trip', trip.id]">
+        <img [src]="trip?.image" />
+        <!--<ion-chip class="ion-padding">
+          <ion-label color="white">₹ {{trip?.price}}</ion-label>
+        </ion-chip>-->
+      </div>
+      <ion-item lines="none">
+        <ion-label class="ion-text-wrap" [routerLink]="['/', 'tabs', 'trip', trip.id]">
+          <ion-text class="title">{{trip?.name}}</ion-text>
+          <p>
+            <ion-text color="medium">
+              {{trip?.category}}
+            </ion-text>
+          </p>
+        </ion-label>
+        <!--<ion-fab-button size="small" slot="end" color="white">
+          <ion-icon name="heart-outline" color="medium"></ion-icon>
+        </ion-fab-button>-->
+      </ion-item>
+    </ion-card>
+  </div>
+
+</ion-content>
+
+</ion-content>

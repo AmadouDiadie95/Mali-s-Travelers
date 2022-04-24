@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Camp",
+    "image": "assets/imgs/tent.png"
+  },
+
+  {
+    "id": 2,
+    "name": "Mountains",
+    "image": "assets/imgs/kheerganga.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Treking",
+    "image": "assets/imgs/trek.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Lake",
+    "image": "assets/imgs/lake.jpg"
+  }
+]

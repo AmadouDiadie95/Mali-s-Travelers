@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Banjir Kanal",
+    "category": "Camp",
+    "image": "assets/imgs/banjir.jpg",
+    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "images": [
+      "assets/imgs/banjir.jpg",
+      "assets/imgs/swissalps.jpg",
+      "assets/imgs/lake.jpg"
+    ]
+  },
+  { "id": 2, "name": "Swiss Alps", "category": "Mountains", "image": "assets/imgs/swissalps.jpg",
+    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "images": [
+      "assets/imgs/swissalps.jpg",
+      "assets/imgs/banjir.jpg",
+      "assets/imgs/lake.jpg"
+    ] },
+  { "id": 3, "name": "Adi Kailash", "category": "Treking", "image": "assets/imgs/kailash.jpg",
+    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "images": [
+      "assets/imgs/kailash.jpg",
+      "assets/imgs/swissalps.jpg",
+      "assets/imgs/banjir.jpg"
+    ] },
+  { "id": 4, "name": "Tarsar Lake", "category": "Lake", "image": "assets/imgs/tarsar.jpg",
+    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "images": [
+      "assets/imgs/tarsar.jpg",
+      "assets/imgs/swissalps.jpg",
+      "assets/imgs/lake.jpg"
+    ] }
+]
