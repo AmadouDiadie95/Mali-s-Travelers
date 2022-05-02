@@ -6,6 +6,10 @@ import {CategoryModel} from "../../../models/category.model";
 import {TripModel} from "../../../models/trip.model";
 import {Storage} from "@ionic/storage";
 import {Router} from "@angular/router";
+import {Observable, of} from "rxjs";
+import {AngularFirestore} from "@angular/fire/compat/firestore";
+import {AppDataState, DataStateEnum} from "../../../state/state";
+import {catchError, map, startWith} from "rxjs/operators";
 
 // install Swiper modules
 SwiperCore.use([EffectFade]);
@@ -22,8 +26,13 @@ export class HomePage implements OnInit, AfterContentChecked {
   categories: CategoryModel[] = [];
   trips: TripModel[] = [];
   searchKey: string ;
+  items$: Observable<any> | null = null ;
+  DataStateEnum=DataStateEnum;
 
-  constructor(private dataService: DataService, private router: Router) { }
+  constructor(private dataService: DataService, private router: Router,
+              private firestore: AngularFirestore) {
+
+  }
 
   ngOnInit() {
 
@@ -31,7 +40,28 @@ export class HomePage implements OnInit, AfterContentChecked {
       this.categories = data ;
     }, error => { console.log(error) }) ;
 
+    this.items$ =
+      this.dataService.getFirebaseTrips().pipe(
+        map(data=>{
+          console.log(data);
+          if (data.length != 0) {
+            this.trips = data ;
+            return ({dataState:DataStateEnum.LOADED,data:data})
+          } else {
+            this.getLocalTrips() ;
+            return ({dataState:DataStateEnum.ERROR,errorMessage:'( Veuillez vous Connectez pour Mettre a Jour ! )'})
+          }
+        }),
+        startWith({dataState:DataStateEnum.LOADING}),
+        catchError(err=>of({dataState:DataStateEnum.ERROR, errorMessage:'( Veuillez vous Connectez pour Mettre a Jour ! )'}, this.getLocalTrips()))
+      ) ;
+
+  }
+
+  getLocalTrips() {
+    console.log("Error on Online loading, taking local data") ;
     this.dataService.getTrips().subscribe(data => {
+      // console.log(data) ;
       this.trips = data ;
     }, error => { console.log(error) }) ;
   }
@@ -52,6 +82,17 @@ export class HomePage implements OnInit, AfterContentChecked {
 
   searchTip(){
     this.router.navigateByUrl('tabs/search/searchKey-' + this.searchKey);
+  }
+
+  addTripsFirebase() {
+    this.dataService.getTrips().subscribe(data => {
+      console.log(data) ;
+      this.trips = data ;
+      this.trips.forEach(trip => {
+        this.firestore.collection('trips').add(trip) ;
+      }) ;
+    }, error => { console.log(error) }) ;
+
   }
 
 }

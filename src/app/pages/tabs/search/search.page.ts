@@ -13,22 +13,47 @@ export class SearchPage implements OnInit {
   allTrips: TripModel[] = [];
   trips: TripModel[] = [];
   searchKey: string ;
+  disconnect: boolean = false ;
 
   constructor(private dataService: DataService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.dataService.getTrips().subscribe(data => {
-      this.allTrips = data ;
-      if ( this.route.snapshot.paramMap.get('categoryName') == 'all' ) {
-        this.trips = this.allTrips ;
+    this.dataService.getFirebaseTrips().subscribe(data => {
+      if (data.length != 0) {
+        this.allTrips = data;
+        if (this.route.snapshot.paramMap.get('categoryName') == 'all') {
+          this.trips = this.allTrips;
 
-      } else if (this.route.snapshot.paramMap.get('categoryName').includes('searchKey')) {
-        this.searchKey = this.route.snapshot.paramMap.get('categoryName').split('-')[1] ;
-        this.searchTip() ;
+        } else if (this.route.snapshot.paramMap.get('categoryName').includes('searchKey')) {
+          this.searchKey = this.route.snapshot.paramMap.get('categoryName').split('-')[1];
+          this.searchTip();
+        } else {
+          this.getCategoryTripToShow(this.route.snapshot.paramMap.get('categoryName'));
+        }
+        ;
       } else {
-        this.getCategoryTripToShow(this.route.snapshot.paramMap.get('categoryName')) ;
-      };
-    }, error => { console.log(error) }) ;
+        /************** CASE ONLINE DOESN'T WORK ****************************/
+        this.disconnect = true ;
+        this.dataService.getTrips().subscribe(data => {
+          this.allTrips = data ;
+          if ( this.route.snapshot.paramMap.get('categoryName') == 'all' ) {
+            this.trips = this.allTrips ;
+
+          } else if (this.route.snapshot.paramMap.get('categoryName').includes('searchKey')) {
+            this.searchKey = this.route.snapshot.paramMap.get('categoryName').split('-')[1] ;
+            this.searchTip() ;
+          } else {
+            this.getCategoryTripToShow(this.route.snapshot.paramMap.get('categoryName')) ;
+          };
+        }, error => {
+          console.log(error) ;
+        }) ;
+
+        /************** CASE ONLINE DOESN'T WORK ****************************/
+      }
+    }, error => {
+      console.log(error) ;
+    }) ;
   }
 
   getCategoryTripToShow(categoryName: string){

@@ -1,25 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Camp",
-    "image": "assets/imgs/tent.png"
+    "name": "Bamako",
+    "image": "assets/imgs/Regions/bamako.jpg"
   },
 
   {
     "id": 2,
-    "name": "Mountains",
-    "image": "assets/imgs/kheerganga.jpg"
+    "name": "Kayes",
+    "image": "assets/imgs/Regions/kayes.jpg"
   },
 
   {
     "id": 3,
-    "name": "Treking",
-    "image": "assets/imgs/trek.jpg"
+    "name": "Koulikoro",
+    "image": "assets/imgs/Regions/koulikoro.jpg"
   },
 
   {
     "id": 4,
-    "name": "Lake",
-    "image": "assets/imgs/lake.jpg"
+    "name": "Mopti",
+    "image": "assets/imgs/Regions/mopti.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Segou",
+    "image": "assets/imgs/Regions/segou.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": "Sikasso",
+    "image": "assets/imgs/Regions/sikasso.jpg"
   }
 ]

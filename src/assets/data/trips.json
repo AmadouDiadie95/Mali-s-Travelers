@@ -1,35 +1,226 @@
 [
   {
     "id": 1,
-    "name": "Banjir Kanal",
-    "category": "Camp",
-    "image": "assets/imgs/banjir.jpg",
-    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "name": "Memorial Modibo KEITA",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/memorial.jpg",
+    "description":  "Lieu de mémoire pour la génération passée,présente et future, le Mémorial Modibo Keita est un ensemble architectural composé de deux structures symétriques séparées par une troisième en axe central. Au-dessus de ce corps central se dresse majestueusement la statue du Père de l’Indépendance de la République du Mali Modibo KEITA. 1er Noir africain élu vice-président de l’Assemblée nationale française (1956), 1er Maire de Bamako, Président du Gouvernement de la Fédération du Mali (1959). Héros de la lutte pour l’indépendance dont il a été l’un des pères, Modibo KEITA fut le 1er président de la République du Mali. Inauguré le 6 juin 1999, le Mémorial Modibo Keita est érigé en service rattaché du ministère chargé de la Culture avec pour mission de promouvoir l’histoire de notre pays. Il est localisé à la decente du pont Fahd en face de la Cité administrative!." ,
     "images": [
-      "assets/imgs/banjir.jpg",
-      "assets/imgs/swissalps.jpg",
-      "assets/imgs/lake.jpg"
+      "assets/imgs/trips/memorial.jpg",
+      "assets/imgs/trips/memorial1.jpg",
+      "assets/imgs/trips/memocarte.jpg"
     ]
   },
-  { "id": 2, "name": "Swiss Alps", "category": "Mountains", "image": "assets/imgs/swissalps.jpg",
-    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+
+  {
+    "id": 2,
+    "name": "Momument de la Paix & Cité Administrative",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/paixCiteadmin.jpg",
+    "description":  "La Cité administrative de Bamako est un ensemble de 22 immeubles qui accueillent les services de la Primature, les Ministères et les plus grandes administrations centrales du Mali. Elle a été inaugurée le 21 Septembre 2010 par le Président Amadou Toumani TOURE du Mali et le Guide Mouamar KADHAFI de la révolution libyenne en marge des festivités du cinquantenaire du Mali. La Cité administrative a été offerte à la République du Mali par la Libye. Le Monument de la Paix est constitué de deux colonnes quadrangulaires, terminées par des mains géantes tenant le globe terrestre,sur lequel sont posées les ailes déployées d’une colombe blanche. Il est destiné à marquer la fin du conflit qui avait sevi au nord du Mali dans les années 1990. Le Monument de la Paix a été inauguré le 21 novembre 1996. Ils sont tous les deux situés à l'entrée, rive gauche, du Pont Fadh, à proximité du Mémorial Modibo Kéïta." ,
     "images": [
-      "assets/imgs/swissalps.jpg",
-      "assets/imgs/banjir.jpg",
-      "assets/imgs/lake.jpg"
-    ] },
-  { "id": 3, "name": "Adi Kailash", "category": "Treking", "image": "assets/imgs/kailash.jpg",
-    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "assets/imgs/trips/paixCiteadmin.jpg",
+      "assets/imgs/trips/paixcode.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Monument des MARTYRS",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/martyr.jpg",
+    "description":  "Edifié en hommage aux victimes de la révolution pour l ’avènement de la démocratie pluraliste, l ’ouvrage présen te au premier plan, une femme en pleur, à genoux, face au corps de son enfant. Au second se présente une oeuvre du peintre Ismaël Diabaté, montrant des manifestants que surplombe une victime hurlant de douleur, manifestement après a voir reçu une balle dans la tête.Les deux composantes du monument traduisent la douloureuse marche vers la démocratie. e t célèbre la victoire pour ce jour nou veau, le 26 mars 1991. L’ouvrage a été inauguré le 29 mars 1995." ,
     "images": [
-      "assets/imgs/kailash.jpg",
-      "assets/imgs/swissalps.jpg",
-      "assets/imgs/banjir.jpg"
-    ] },
-  { "id": 4, "name": "Tarsar Lake", "category": "Lake", "image": "assets/imgs/tarsar.jpg",
-    "description":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "assets/imgs/trips/martyr.jpg"
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Monument Obélisque des Idéogrammes",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/bougieba.jpg",
+    "description":  "Il est dédié au système d’écriture N’KO.Il est composé de 25 figures, prouvant l’existence par le passé de préceptes d’écriture propre à l’Afrique. L’ouvrage se présente sous la forme d’un bloc quadrangulaire émergeant d’une tour circulaire surélevée, à laquelle on accède par les escaliers. La colonne quadrilatère terminée par un sommet pyramidal est inspirée de l’art égyptien ancien. Elle est gravée sur ses quatre côtés, de textes d’idéogrammes N’ko, Bozo, Bambara, Dogon. Les textes suggérés sont tranduits en français. Obélisque du N’ko Localisé dans la commune IV du District de Bamako, Hamdallaye ACI 2000." ,
     "images": [
-      "assets/imgs/tarsar.jpg",
-      "assets/imgs/swissalps.jpg",
-      "assets/imgs/lake.jpg"
-    ] }
+      "assets/imgs/trips/bougieba.jpg",
+      "assets/imgs/trips/bougieba1.jpg",
+      "assets/imgs/trips/bougieba2.jpg.jpg"
+
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Monument Kwamé N’kruma",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/kwame.jpg",
+    "description":  "Il est constitué d’une statue en bronze de l’illustre homme drapé d’un habit traditionnel et posant sur un piédestal en marbre blanc. Figure historique du panafricanisme, ce Ghanéen qui libera son pays de la tutelle anglaise en 1957 mourut en 1972, sans avoir réalisé son rêve des Etats Unis d’Afrique. Le monument a été inauguré le 1er mars 2000. PLACE KWAME N’KRUMA Est située dans la commune IV du District de Bamako, Hamdallaye ACI 2000." ,
+    "images": [
+      "assets/imgs/trips/kwame.jpg",
+      "assets/imgs/trips/kwame1.jpg",
+      "assets/imgs/trips/kwame2.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Pyramide du souvenir",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/pyramide.jpg",
+    "description":  "Edifié en hommage aux victimes de la révolution pour l ’avènement de la démocratie pluraliste, l ’ouvrage présente au premier plan, une femme en pleur, à genoux, face au corps de son enfant. Au second se présente une oeuvre du peintre Ismaël Diabaté, montrant des manifestants que surplombe une victime hurlant de douleur, manifestement après a voir reçu une balle dans la tête.Les deux composantes du monument traduisent la douloureuse marche vers la démocratie et célèbre la victoire pour ce jour nouveau, le 26 mars 1991. L’ouvrage a été inauguré le 29 mars 1995." ,
+    "images": [
+      "assets/imgs/trips/pyramide.jpg",
+      "assets/imgs/trips/pyramide1.jpg",
+      "assets/imgs/trips/pyramide2.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "name": "Musée National & Jardin de la Préhistoire",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/musee.jpg",
+    "description":  "Le Musée national du Mali est un muséearchéologique et ethnologique situé à Bamako. Il présente différentes expositions permanentes et temporaires sur la préhistoire au Mali, les costumes, les instruments de musique, les objets rituels des différents groupes ethniques du Mali. Le 14 février 1953 est inauguré le Musée soudanais, rattaché à l’Institut français d'Afrique noire (IFAN) et plus spécialement à sa section du Soudan français. Le Musée national offre également une grande paillote et une cantine servant de lieu de repos et de restauration. Jardin : Situé en face du Musée national du Mali, le Jardin préhistorique nous renseigne sur l’histoire de l’évolution de toute l’humanité, à travers la grotte de l’évolution qui expose la technicité de l’homme pendant la préhistoire. La grotte permet d’expliquer aux visiteurs comment se mènent les recherches archéologiques. La grotte de l’Evolution est contiguë à celle de l’Archéologie. Là, on illustre l’évolution de l’homme habile. Horaire : Mardi au Dimanche 9h-18h (Le musée est fermé les lundi et les jours de fête au public mais l’administration reste ouverte). Tarif : tarifs Visite Simple => Nationaux et ressortissants CEDEAO :500frcfa/personne. Hors CEDEAO : 2.500frcfa/personne. Tarifs Visite Guidée => Nationaux et ressortissants CEDEAO :1.000frcfa/personne. Hors CEDEAO : 3.000frcfa/personne. La visite du Musée est gratuite pour les scolaires et universitaire et leur visite guidée est sur rendez-vous " ,
+    "images": [
+      "assets/imgs/trips/musee.jpg",
+      "assets/imgs/trips/musee1.jpg",
+      "assets/imgs/trips/musee2.jpg"
+    ]
+  },
+
+  {
+    "id": 8,
+    "name": "Place des Armées Noires",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/armeenoire.jpg",
+    "description":  "Installé au coeur de la place de la liberté, en face de la Mairie du District de Bamako, le Monument aux Héros de l’Armée noire témoigne la bravoure des soldats africains pendant la première Guerre mondiale (1914-1918).Au total sur les 600.000 combattants africains mobilisés pour secourir la France, plus de 30.000 sont tombés glorieusement. Le monument aux Héros de l'Armée noire a été sculpté en France.Il est constitué d’un piédestal en granit en forme de tata (une fortification d'Afrique de l'Ouest), sur lequel sont gravés les noms des principales batailles dans lesquelles les troupes africaines avaient été engagées. Au-dessus, la sculpture représente quatre soldats noirs formant un bloc autour d’un officier blanc protégeant le drapeau français. Une réplique de ce monument se trouve dans la ville française de Reims." ,
+    "images": [
+      "assets/imgs/trips/armeenoire.jpg",
+      "assets/imgs/trips/armeenoire00.jpg",
+      "assets/imgs/trips/armeesnoir1.jpg",
+      "assets/imgs/trips/armeesnoir2.jpg",
+      "assets/imgs/trips/armeesnoir3.jpg",
+      "assets/imgs/trips/placeArmee.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "name": "Le Parc des Sofas",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/sofa.jpg",
+    "description":  "Localisé dans le quartier de koyambougou , commune de Dogodouma , à l’ouest de Bamako, au pied des Monts Manding, le site historique de Woyowayanko est situé, sur les rives de la rivière du même nom. Il a été réalisé afin de commémorer la bataille historique entre les troupes de l’Almamy Samory Touré (dirigé par son frère Fabou Kémé Brama), et les troupes françaises conduites par Borgnis Desbordes en 1883.Comme tel, l’ouvrage comprend entre autres éléments : trois tumulus de pierre considérés comme les sépultures des Sofas et des tombes individuelles ; une clôture monumentale, un cavalier représentant Fabou Kémé Brama faisant face au champ de bataille. Le parc de Woyowayanko a été inauguré en 2000." ,
+    "images": [
+      "assets/imgs/trips/sofa.jpg",
+      "assets/imgs/trips/sofa11.jpg",
+      "assets/imgs/trips/sofa2.jpg",
+      "assets/imgs/trips/sofa3.jpg",
+      "assets/imgs/trips/sofa4.jpg",
+      "assets/imgs/trips/kemebrema01.jpg"
+    ]
+  },
+
+  {
+    "id": 10,
+    "name": "La Tour de l’Afrique",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/tourafrique.jpg",
+    "description":  "Symbole de la matérialisation d’une Afrique unie, libre et en pleine possesion de sa propre destinée, le gigantesque monument majestueusement bâti, qui est la Tour de l’Afrique.Conçu en forme de baobab à la base et orné au milieu par des idéogrammes Bambaras stylisés signifiant concertation, union et entraide, l’ouvrage de 46m de hauteur constitue l’un des symboles de la ville des 3 caïmans. La Tour est surmontée d’une jarre en passoire inspirée d’un symbole préféré du roi Guezo Dahomé, suggérant que si chaque fils du pays bouchait d’un de ses doigts un trou de l’ustensile, il pourrait bien contenir de l’eau. Elle est localisée dans la commune VI du district de Bamako côté Est du Boulevard de l’Union Africaine où elle sert d’épicentre au grand rond-point de Faladié." ,
+    "images": [
+      "assets/imgs/trips/tourafrique.jpg"
+    ]
+  },
+
+  {
+    "id": 11,
+    "name": "MONUMENT DE L’INDEPENDANCE",
+    "category": "Bamako",
+    "image": "assets/imgs/trips/independance.jpg",
+    "description":  "Avec ses coupoles en forme de minarets et de mihrabs, le monument de l’indépendance est un véritable chef-d’oeuvre architectural classé au patrimoine national. Il est le symbole de la souveraineté nationale et internationale retrouvée après un siècle de domination coloniale. Au sommet se trouve une coupoledorée, faite de bronze. Le monument de l’indépendance aété inauguré, le 22 Septembre 1995, par le président de la République Alpha Oumar KONARE à l’occasion du 35ème anniversaire de l’indépendance du Mali. Le monument de l’Indépendance est construit de béton, revêtu par du marbre. Le monument est bâti sur quatre piliers avec des mihrabs en bas desquels sont gravés les noms des médaillés d’or de l’indépendance du Mali." ,
+    "images": [
+      "assets/imgs/trips/independance.jpg",
+      "assets/imgs/trips/independance00.jpg",
+      "assets/imgs/trips/indep1.jpg",
+      "assets/imgs/trips/indep2.jpg",
+      "assets/imgs/trips/indep3.jpg"
+    ]
+  },
+
+  {
+    "id": 12,
+    "name": "Les chutes de Gouina",
+    "category": "Kayes",
+    "image": "assets/imgs/trips/gouina00.jpg",
+    "description":  "Les chutes de Gouina sont situées sur le fleuve Sénégal au, à 80 km de Kayes sur la route de Bafoulabé. Le fleuve, d'une largeur de 400 m à cet endroit, tombe d'une hauteur d'environ 25 m. Un site exceptionnel naturel, il donne une vue superbe sur le courant d’eau se déversant dans le bassin du fleuve. Le site regorge une flore et une faune très riche notamment les hippopotames, les antilopes, les singes, les oiseaux.",
+    "images": [
+      "assets/imgs/trips/gouina00.jpg",
+      "assets/imgs/trips/gouina1.jpg",
+      "assets/imgs/trips/gouina2.jpg",
+      "assets/imgs/trips/gouina.jpg"
+    ]
+  },
+
+  {
+    "id": 13,
+    "name": "Le fort de Médine",
+    "category": "Kayes",
+    "image": "assets/imgs/trips/fortMedine00.jpg",
+    "description":  "Le fort de Médine situé à 12 km de Kayes, est un impressionnant ouvrage militaire couvrant plus d’un hectare et entouré d’un rempart massif de pierre. Construit entre 1825 et 1827, l’aire historique du fort comprend la tour de guet, les bâtiments de l’ancienne gare du Chemin de Fer, le cimetière militaire, les ruines d’une ancienne mosquée et celles de plusieurs maisons de commerce. Médine fut la capitale du Soudan français avant la ville de Kayes.",
+    "images": [
+      "assets/imgs/trips/fortMedine00.jpg",
+      "assets/imgs/trips/fortMedine1.jpg",
+      "assets/imgs/trips/fortMedine2.jpg",
+      "assets/imgs/trips/fortMedine.jpg"
+    ]
+  },
+
+  {
+    "id": 14,
+    "name": "Le Tata de Koniakari",
+    "category": "Kayes",
+    "image": "assets/imgs/trips/tatakoniakari00.jpg",
+    "description":  "Le Tata de Koniakari: (75 km de Kayes) Koniakari appartenait aux Khassonké avant sa conquête successive par les Bamanan Massassi du karta et par El Hadj Oumar. Ce dernier édifia le Tata en 1855 pour servir de muraille défensive contre l’envahisseur étranger.",
+    "images": [
+      "assets/imgs/trips/tatakoniakari00.jpg",
+      "assets/imgs/trips/tatakoniakari1.jpg",
+      "assets/imgs/trips/tatakoniakari2.jpg",
+      "assets/imgs/trips/tatakoniakari.jpg"
+    ]
+  },
+
+  {
+    "id": 15,
+    "name": "Les bâtiments coloniaux",
+    "category": "Kayes",
+    "image": "assets/imgs/trips/batcoloniaux00.jpg",
+    "description":  "Les bâtiments coloniaux témoignagent de l’occupation française, ils sont repartis dans le centre-ville de Kayes.",
+    "images": [
+      "assets/imgs/trips/batcoloniaux00.jpg",
+      "assets/imgs/trips/batcoloniaux1.jpg",
+      "assets/imgs/trips/batcoloniaux2.jpg",
+      "assets/imgs/trips/batcoloniaux3.jpg",
+      "assets/imgs/trips/batcoloniaux4.jpg",
+      "assets/imgs/trips/batcoloniaux.jpg"
+    ]
+  },
+
+  {
+    "id": 16,
+    "name": "Les chutes du Félou",
+    "category": "Kayes",
+    "image": "assets/imgs/trips/felou00.jpg",
+    "description":  "Les chutes du Félou sont situées sur le fleuve Sénégal au Mali, à 17 km au sud-est de Kayes en direction de Bafoulabé. Le site a conservé le charme de ses chutes qui bouillonnent toute l’année et offre la possibilité de faire des jolies promenades.",
+    "images": [
+      "assets/imgs/trips/felou00.jpg",
+      "assets/imgs/trips/felou1.jpg",
+      "assets/imgs/trips/felou2.jpg",
+      "assets/imgs/trips/felou.jpg"
+    ]
+  }
+
+
+
+
+
+
 ]

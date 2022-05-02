@@ -3,5 +3,6 @@ export class TripModel {
   name: string ;
   category: string ;
   description: string ;
-  image: Array<string> ;
+  image: string ;
+  images: Array<string> ;
 }
